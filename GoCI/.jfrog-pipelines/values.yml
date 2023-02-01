@@ -22,7 +22,7 @@ artIntegration: myArtifactory
  
 ##### Repository Details
 repo:
-  path: org/repo
+  path: RjSH1/newTemplates
   gitIntegration: myGithub
   branchPattern: "^main$"
  
