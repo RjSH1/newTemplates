@@ -3,7 +3,7 @@
 namePrefix: sample
  
 ## The name of your Artifactory integration
-artIntegration: myArtIntegrationName
+artIntegration: myArtifactory
  
 ##### Artifactory Build Info
 ## set this to `true` to publish a build
@@ -18,12 +18,12 @@ artIntegration: myArtIntegrationName
 ##### Repository Details
 repo:
   path: org/repo
-  gitIntegration: myGitIntegration
+  gitIntegration: myGithub
   branchPattern: "^main$"
  
 npmConfig:
   ## Here you specify any additional arguments to the command to execute
-  ## it is executed as `npm install {{ npmArgs }}`
+
   npmArgs: "--no-install"
   sourceLocation: "."
   ## These repositories must first be created in Artifactory.
