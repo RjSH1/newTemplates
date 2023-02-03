@@ -3,7 +3,7 @@
 namePrefix: sample_promote
  
 ## The name of your Artifactory integration
-artIntegration: myArtIntegrationName
+artIntegration: myArtifactory
  
 ## The name of the BuildInfo resource referencing the build to be promoted
 inputBuildInfoResourceName: myBuildInfo
